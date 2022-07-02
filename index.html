@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/792a67f5a5.js" crossorigin="anonymous"></script>
+    <title>Gym for fitness</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="body">
+        <header class="header">
+            <nav>
+                <div class="logo">Fitness</div>
+                <ul id="ul">
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+    
+        <div class="container">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in
+                    ratione<br />
+                    facere harum alias blanditiis.</span>
+            </p>
+        </div>
+    
+        <div class="container2">
+            <div class="message">
+                <h3 class="C2h3">Select your perfect time</h3>
+                <p class="C2p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                    odit<br />
+                    assumenda architecto officia. Aliquam, consectetur quia suscipit
+                    saepe<br />deserunt iste!
+                </p>
+            </div>
+    
+            <div class="contact">
+                <img src="./images/contact.jpg" alt="" />
+                <div class="form">
+                    <h4>Contact-Form</h4>
+                    <p>FEEL FREE TO CONTACT WITH US:</p>
+                    <input type="text" placeholder="Name" />
+                    <input type="text" placeholder="Phone" /> <br/><br/><br/>
+                    <select>
+                        <option value="">Steam</option>
+                        <option value="">Sauna</option>
+                        <option value="">Cardio</option>
+                    </select>
+                    <input type="email" placeholder="Email" /><br />
+                    <textarea cols="20" rows="5" placeholder="Message"></textarea><br /><br />
+    
+                    <button id="contact-btn" type="submit" onclick="openPop()">
+                        SEND MESSAGE
+                    </button>
+    
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="text">
+                <div class="col-1">
+                    <h3>Company</h3>
+                    <p>
+                        <a href="">Home</a>
+                        <a href="">About us</a>
+                        <a href="">Services</a>
+                        <a href="">Contact us</a>
+                    </p>
+                </div>
+    
+                <div class="col-2">
+                    <h3>OPEN HOUR</h3>
+                    <p>Monday 11am-7pm</p>
+                    <p>Tuesday-Friday 11am-8pm</p>
+                    <p>Saturday 10am-6pm</p>
+                    <p>Sunday 11am-6pm</p>
+                </div>
+    
+                <div class="col-3">
+                    <a href="">Fitness</a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing <br />elit Culpa
+                        placeat, perferendis id deserunt ullam <br />alias molestiae
+                        pariatur quos?
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="copyright">
+                <p>
+                    Copyright ©2022 All rights reserved | This website is made with
+                    <i class="fa-solid fa-heart"></i> by Binod
+                </p>
+            </div>
+        </div>
+    </section>
+
+        <div id="pop-up">
+            <img src="./images/image.png" alt="" />
+            <h3>Thank you!</h3>
+            <p>Your details have been submitted sucessfully</p>
+            <button type="button" id="pop-btn" onclick="closePop()">
+                Ok
+            </button>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
